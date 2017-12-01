@@ -1,0 +1,7 @@
+[parity]
+chain = "dethereum-spec.json"
+base_path = "data"
+[network]
+reserved_peers = "peers.txt"
+[rpc]
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
